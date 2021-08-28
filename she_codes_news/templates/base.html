@@ -15,14 +15,11 @@
 
     <body>
         <header>
-            <div id="header-text">
-                <a id="header-link" href="{% url 'news:index' %}">
+                    <a id="header-link" href="{% url 'news:index' %}">
                     <h1>She {Codes} News</h1>
                 </a>
-            </div>
             {% include './nav.html' %}
         </header>
-
         {% block content %}{% endblock %}
     </body>
 </html>
