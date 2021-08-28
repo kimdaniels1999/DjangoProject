@@ -33,8 +33,6 @@ DEBUG = os.environ.get('DJANGO_DEBUG') != 'False'
 
 ALLOWED_HOSTS = ['*']
 
-print('Django_Debug', os.environ)
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -139,7 +137,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
-
-import dj_database_url
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
