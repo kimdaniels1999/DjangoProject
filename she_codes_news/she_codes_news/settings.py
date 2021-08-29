@@ -31,6 +31,11 @@ SECRET_KEY = os.environ.get(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG') != 'False'
 
+if os.environ.get('DEBUG') == 'True':
+    print('Debug mode is on')
+else:
+    print('Debug mode is off')
+
 ALLOWED_HOSTS = ['*']
 
 CORS_ALLOW_ALL_ORIGINS = True
