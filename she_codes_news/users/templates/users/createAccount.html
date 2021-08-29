@@ -2,9 +2,11 @@
 
 {% block content %}
 <h2>Create Account</h2>
+<div class="create-account">
 <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
     <button type="submit">Create Account</button>
 </form>
+</div>
 {% endblock %}

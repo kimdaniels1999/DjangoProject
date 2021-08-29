@@ -1,31 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
 
 body {
-    background-color: #ffff;
+    background: url("images/2101.i109.010_newspaper_editorial_office_publishing_isometric.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    padding: 50px;
 }
 
 header {
-    align-items: center;
-    justify-content: space-between;
     background-color: #ff8ecc;
     border-radius: 15px 50px;
-    padding: 20px; 
-}
-
-img {
-    
+    padding: 20px;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: space-evenly; 
 }
 
 h1 {
     font-family: 'Montserrat Subrayada', sans-serif;
-    text-decoration: none;
     font-size: 4rem;
+    text-decoration: none;
     margin: 0;
 }
 
 h2 {
    font-family: 'Montserrat Subrayada', sans-serif;
    color: rgb(133, 23, 155); 
+   font-weight: bold;
+   font-size: 2rem;
+
 }
 
 h3 {
@@ -33,15 +38,8 @@ h3 {
     margin: 0;
 }
 
-#header-text {
-    text-align: centre;
-    
-}
-
 nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    align-self: flex-end;
 }
 
 a {
@@ -52,6 +50,8 @@ a {
 
 a, p {
     font-family: monospace;
+    font-size: large;
+    font-weight: bolder;
 }
 
 
@@ -60,6 +60,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: monospace;
 }
   
 li {
@@ -72,9 +73,27 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: monospace;
 }
   
 li a:hover {
-    background-color: rgb(20, 161, 216);
+    background-color: rgb(20, 203, 216);
 }
-        
+
+.create-account {
+    display: inline-flex;
+    background-color: cornsilk;
+    opacity: 0.7;
+    padding: 20px;
+}
+
+div {
+    background-color: cornsilk;
+    opacity: 0.7;
+    filter: alpha(opacity=70)
+}
+
+div:hover {
+    opacity: 1.0;
+        filter: alpha(opacity=100);
+}
