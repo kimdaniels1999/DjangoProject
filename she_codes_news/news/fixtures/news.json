@@ -3,20 +3,20 @@
       "model": "news.newsstory",
       "pk": 1,
       "fields": {
-        "title": "Brisbane She Codes Students are back in person",
+        "title": "Surround yourself with good people and the world will be a little easier",
         "author": 1,
         "pub_date": "2021-08-28T10:03:56Z",
-        "content": "Happy students elated after a long awaited return to The Hub, Adeliade Street, Brisbane on Saturday 28th August."
+        "content": "Online abuse continues to exist and despite the new measures to combat trolls and hate raids we must continue and keep our communities and group of friends close - like She Codes Brisbane cohorts across all years."
       }
     },
     {
       "model": "news.newsstory",
       "pk": 2,
       "fields": {
-        "title": "Outrageous Pricing for Parking in Brisbane City",
+        "title": "Nostalgia can be a blessing or a curse",
         "author": 1,
         "pub_date": "2021-08-27T04:06:50Z",
-        "content": "If you don't know, now you know! All day parking for $15 on Saturdays which is conveniently located across from the The Hub."
+        "content": "Django envokes feelings and memories of HTML & CSS, on one hand a feeling of excitment to showcase your style and then a back flash of long hours spent applying various css techniques."
       }
     },
     {
@@ -33,20 +33,20 @@
       "model": "news.newsstory",
       "pk": 4,
       "fields": {
-        "title": "Nostalgia can be a blessing or a curse",
+        "title": "Outrageous Pricing for Parking in Brisbane City",
         "author": 1,
         "pub_date": "2021-08-15T10:11:39Z",
-        "content": "Django envokes feelings and memories of HTML & CSS, on one hand a feeling of excitment to showcase your style and then a back flash of long hours spent applying various css techniques."
+        "content": "If you don't know, now you know! All day parking for $15 on Saturdays which is conveniently located across from the The Hub."
       }
     },
     {
       "model": "news.newsstory",
       "pk": 5,
       "fields": {
-        "title": "Surround yourself with good people and the world will be a little easier",
+        "title": "Brisbane She Codes Students are back in person",
         "author": 1,
         "pub_date": "2021-08-11T03:18:09Z",
-        "content": "Online abuse continues to exist and despite the new measures to combat trolls and hate raids we must continue and keep our communities and group of friends close - like She Codes Brisbane cohorts across all years."
+        "content": "Happy students elated after a long awaited return to The Hub, Adeliade Street, Brisbane on Saturday 28th August."
       }
     }
   ]
